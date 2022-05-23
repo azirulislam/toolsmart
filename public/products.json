@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Thickness planner",
+      "price": "Price $803",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "The wood surface planer or better-known as thickness planer is one of the popular wood workshop machines ",
+      "image": "https://i.ibb.co/9g4MQ3d/Planer.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bandsaw",
+      "price": "Price $663",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "This band fits over two or more rotating wheels which are driven by powerful electric motors.",
+      "image": "https://i.ibb.co/MpbsqM6/band.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Wood Router",
+      "price": "Price $700",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "This handheld power tool provides us the capability to be hollow out sections in any wood workpiece and any other materials.",
+      "image": "https://i.ibb.co/gJVqgcX/router.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Chisel Mortiser",
+      "price": "Price $673",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "The chisel mortisers are one of the very important and versatile wood working machine tools which are used for drilling up holes into wooden surfaces.",
+      "image": "https://i.ibb.co/vvTQHzp/mortiser.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tenoning Machine",
+      "price": "Price $593",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "The tenoning machine is typically used to craft out those tenons.",
+      "image": "https://i.ibb.co/PTyYmz5/teno.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nail Gun",
+      "price": "Price $573",
+      "order": "Minimum-order: 500 pice",
+      "available": "Available: 10,000 piece",
+      "description": "A nail gun, or sometimes known as a nailer, gives us the capability to drive nails into wood and other materials.",
+      "image": "https://i.ibb.co/0rT66Tc/nail.jpg"
+    }
+  ]

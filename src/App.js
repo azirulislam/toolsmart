@@ -6,6 +6,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Login from './Pages/Login/Login';
 import Navbar from './Pages/Navbar/Navbar';
 import Footer from './Pages/Footer/Footer';
+import Register from './Pages/Register/Register';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="purchase" element={<Purchase />} />
         <Route path="blogs" element={<Blogs />} />
         <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
       </Routes>
       <Footer></Footer>
       

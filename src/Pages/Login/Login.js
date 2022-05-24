@@ -39,10 +39,8 @@ const Login = () => {
         <div className='login-container'>
             <h2 className='login-title'>Please Login</h2>
             <div className='input-group'>
-                <form>
-                    <label htmlFor="email">Email</label>
+                <form> 
                     <input type="email" name="email" placeholder='Email' required />
-                    <label htmlFor="password">Password</label>
                     <input type="password" placeholder='password' />
                     <button className='form-submit' onClick={() => signInWithEmailAndPassword(email, password)}>
                         Sign In

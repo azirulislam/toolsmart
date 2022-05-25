@@ -8,6 +8,9 @@ import Navbar from './Pages/Navbar/Navbar';
 import Footer from './Pages/Footer/Footer';
 import Register from './Pages/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
+import NotFound from './Pages/NotFound/NotFound';
+
+
 
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
         <Route path="blogs" element={<Blogs />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>
       

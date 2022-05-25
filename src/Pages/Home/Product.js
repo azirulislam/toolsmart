@@ -14,7 +14,7 @@ const Product = ({product}) => {
                 <p>{order}</p>
                 <p>{available}</p>
                 <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button  class="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>

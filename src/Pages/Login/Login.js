@@ -50,7 +50,7 @@ const Login = () => {
             <p className='p-area'>
                 New to here : <Link className='text-xl text-primary' to='/Register'>Create an account</Link>
             </p>
-            <button className='btn' onClick={() => signInWithgoogle()}> <img src={Background} alt="img" /> Signin with google</button>
+            <button className='btn w-40' onClick={() => signInWithgoogle()}> <img src={Background} alt="img" /> Signin with google</button>
 
         </div>
     );

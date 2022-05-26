@@ -39,9 +39,17 @@ const Login = () => {
         <div className='login-container'>
             <h2 className='login-title'>Please Login</h2>
             <div className='input-group'>
-                <form> 
-                    <input type="email" name="email" placeholder='Email' required />
-                    <input type="password" placeholder='password' />
+                <form>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <input
+                        type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
                     <button className='form-submit' onClick={() => signInWithEmailAndPassword(email, password)}>
                         Sign In
                     </button>
@@ -50,7 +58,7 @@ const Login = () => {
             <p className='p-area'>
                 New to here : <Link className='text-xl text-primary' to='/Register'>Create an account</Link>
             </p>
-            <button className='btn w-40' onClick={() => signInWithgoogle()}> <img src={Background} alt="img" /> Signin with google</button>
+            <button class="btn btn-wide" onClick={() => signInWithgoogle()} ><img className='lg-img' src={Background} alt="img" /> Signin with google</button>
 
         </div>
     );

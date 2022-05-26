@@ -1,7 +1,6 @@
 import React from 'react';
 import './Register.css';
 import { useForm } from "react-hook-form";
-import { useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
@@ -16,14 +15,10 @@ const Register = () => {
     error,
   ] = useCreateUserWithEmailAndPassword(auth);
  
-   const navigate = useNavigate();
 
   if (loading) {
     return <p>Loading...</p>;
   }
-  if (user) {
-    navigate({ replace: true });
-}
 
   if (error) {
     return (
@@ -51,7 +46,7 @@ const Register = () => {
           {/* errors will return when field validation fails  */}
           {errors.exampleRequired && <span>This field is required</span>}
 
-          <input className='btn ' type="submit" />
+          <input className='form-btn ' type="submit" />
         </form>
       </div>
       

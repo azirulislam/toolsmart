@@ -4,7 +4,6 @@
     margin: 0 auto;
     border: 1px solid lightpink;
     border-radius: 8px;
-    justify-content: center;
     background-color: blanchedalmond;
 
 }
@@ -30,8 +29,8 @@
 .p-area{
     display: block;
     margin-top: 12px;
+    margin-bottom: 20px;
 }
-.btn{
-
-    margin-top: 20px;
+.lg-img{
+    margin-right: 12px;
 }

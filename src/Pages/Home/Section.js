@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Product from './Product';
+import BookingProduct from './BookingProduct';
 
 
 const Section = () => {
         const [products, setProducts] = useState([]);
+        const [bookProduct, setbookProduct] = useState(null);
 
         useEffect ( () =>{
             fetch('http://localhost:5000/product')
@@ -19,9 +21,11 @@ const Section = () => {
                 products.map(product => <Product
                  key={product.id}
                  product={product}
+                 setbookProduct={setbookProduct}
                 ></Product>)
             }
         </div>
+        {bookProduct && <BookingProduct bookProduct={bookProduct} setbookProduct={setbookProduct}></BookingProduct>}
         </div>
         
     );

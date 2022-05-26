@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 450px;
+    padding-left: 300px;
     padding-right: 100px;
 }
 
@@ -16,4 +16,8 @@
 }
 .Navbar a:hover{
     color: rgba(255, 0, 34, 0.808);
+}
+.out-btn{
+    background-color: red;
+    color: #FFFFFF;
 }

@@ -9,6 +9,7 @@ import Footer from './Pages/Footer/Footer';
 import Register from './Pages/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
 import NotFound from './Pages/NotFound/NotFound';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="purchase" element={<RequireAuth><Purchase /> </RequireAuth>} />
+        <Route path="dashboard" element={<RequireAuth><Dashboard /> </RequireAuth>} />
         <Route path="blogs" element={<Blogs />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />

@@ -10,6 +10,7 @@ import Register from './Pages/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth';
 import NotFound from './Pages/NotFound/NotFound';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import MyProfile from './Pages/MyProfile/MyProfile';
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="purchase" element={<RequireAuth><Purchase /> </RequireAuth>} />
         <Route path="dashboard" element={<RequireAuth><Dashboard /> </RequireAuth>} />
         <Route path="blogs" element={<Blogs />} />
+        <Route path="myprofile" element={<MyProfile />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
         <Route path="*" element={<NotFound />} />

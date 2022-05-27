@@ -15,7 +15,13 @@ const Register = () => {
     error,
   ] = useCreateUserWithEmailAndPassword(auth);
  
-
+  if (user) {
+    return (
+      <div>
+        <p>Registered User: {user.email}</p>
+      </div>
+    );
+  }
   if (loading) {
     return <p>Loading...</p>;
   }
